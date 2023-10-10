@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Cascadia Code', 'Courier New', 'monospace';
+    src: url('/Cascadia.ttf') format('truetype');
+  }
+.navbarContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; 
+}
+.homeNavbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.eventclass {
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-width: 3.79px;
+  border-style: solid;
+  border-image-source: linear-gradient(to right, #3ACD6B, black);
+  border-image-slice: 1;
+  animation: moveGradient 8s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    border-image-source: linear-gradient(to right, #3ACD6B, black);
+  }
+  25% {
+    border-image-source: linear-gradient(to right, black, #3ACD6B);
+  }
+  50% {
+    border-image-source: linear-gradient(to right, #3ACD6B, black);
+  }
+  75% {
+    border-image-source: linear-gradient(to right, black, #3ACD6B);
+  }
+  100% {
+    border-image-source: linear-gradient(to right, #3ACD6B, black);
+  }
+}
+
+  .customButton {
+    margin-right: 1rem;
+    background-color: #3ACD6B !important;
+    border-color: #3ACD6B !important;
+    color: black !important;
+  }
+  .whitetext{
+    color: white !important;
+
+  }
+  .navbar{
+    height: 30px !important;
+  }
+  .radioGroup {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+  }
+
+  .radioItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red !important;
+  }
+  .radioButton {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .radioLabel {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #3ACD6B;
+    border-radius: 4px;
+    color: #3ACD6B;
+  }
+  
+  .radioButton:checked + .radioLabel {
+    background-color: #3ACD6B;
+    color: white;
+  }
+  
+  .heading {
+    padding-top: 8rem;
+    color: rgb(252, 3, 3);
+  }
+  
+  .logo {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-toggler {
+      order: 1;
+    }
+    .logo {
+      order: 2;
+      margin-right: 0;
+    }
+    .navbar-collapse {
+      order: 3;
+    }
+  }
+
+  .glogo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('/CSC_Logo_Dark_name (1).svg');
+    width: 30px;
+    height: 30px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+.navdiv{
+    width: 1920px;
+    height: 95px;
+    background-color: white;
+}
+.navlogo{
+    height: 95px;
+    width: 95px;
+    position: relative;
+    left: 50px;
+}
+.navelements{
+    display: flex;
+    width: 850px;
+    position: relative;
+    top: -30px;
+    color: black;
+    left: 150px;
+    font-family: 'Cascadia Code', sans-serif;
+    font-size: larger;
+}
+.gfont{
+    
+    font-size: larger;
+}
+.btn-group {
+    margin-right: 0.5rem;
+  }
+
+
+  @media (max-width: 768px) {
+    .glogo {
+      order: -1;
+      left: 0;
+    }
+    .navbar {
+      justify-content: space-between;
+    }
+    .collapse.navbar-collapse {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      gap: 1rem;
+      width: 100%;
+    }
+  
+    .navbar-nav {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .btn-group {
+      margin-right: auto;
+    margin-left: auto;
+      margin-top: 1rem;
+    }
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.footerSection {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 210px;
+  position: relative;
+}
+
+.contact {
+  width: 50%;
+}
+
+.social {
+  width: 50%;
+}
+
+.title {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: white;
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.heart {
+  color: red;
+  font-size: 27px;
+  width: 20px;
+}
+
+.contactInfo p {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.madeWithLove {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: white;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      padding-left: 20px; 
+     }
+
+  .contact,
+  .social {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .social {
+      margin-bottom: 10px; 
+      width: 50%;
+  }
+}
+
+
+.logo-container_h {
+  width: 50vw; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_h {
+  max-width: 100%; 
+  max-height: 100%; 
+}
+
+  
+  
+  
+  
+  
+
+  
+  
