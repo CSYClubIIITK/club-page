@@ -68,14 +68,14 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(0,
             <Navbar />
             {windowWidth > 768 ? (
                 <div style={{ display: 'flex', fontFamily: 'Cascadia Code, monospace', color: 'white', textAlign: 'center', height: '100vh' }}>
-                    <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                    <div style={{ flex: 4.5, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginLeft: '1%' }}>
                         <div style={logoStyles}>
                             <img src="/CSC_Logo.png" alt="Logo" style={{ width: '120%', height: '120%', objectFit: 'contain' }} />
                         </div>
                     </div>
-                    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: '70px' }}>
+                    <div style={{ flex: 5, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: '70px',marginRight:'7%' }}>
                         <div style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Cyber Security Club</div>
-                        <div style={{ fontSize: '1.2rem', lineHeight: '1.5', maxWidth: '800px', marginBottom: '2rem', marginRight: '2rem' }}>
+                        <div style={{ fontSize: '1.2rem', lineHeight: '1.5', maxWidth: '800px', marginBottom: '2rem', marginRight: '0.5rem' }}>
                             Join the Cyber Security Club of IIIT Kottayam as we explore new cutting edge technology.
                         </div>
                     </div>
