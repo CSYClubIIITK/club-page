@@ -73,6 +73,41 @@ const Events = () => {
 
             {isChecked ? (
                 <>
+                    
+
+                </>
+            ) : (
+
+                <>
+                    <MediaComponent2
+                        imageSrc="/hactoberfest_hands_on.jpeg"
+                        title="Hactoberfest Hands On: Live Open Source Contribution"
+                        description="We're back and this time it's all about diving headfirst into the exciting world of open source and community contributions. As part of the ongoing Hacktoberfest, we're continuing our journey of giving back to the coding community.
+                        In follow-up with our previous sessions, we will make contributions to the community space, the CSY club’s cipher project, Ecocrypt🍀, and our club’s website too! Get your hands dirty (figuratively, of course) and leave your mark on the virtual canvas.
+                        This session promises to be fun, engaging, and, most importantly, hands-on. So, don't forget to get your laptops and be a part of a tech adventure that's not just about learning but also giving back to the community.
+                        See you there!🌟💻"
+                    /><br /><br />
+                    <MediaComponent2
+                        imageSrc="/hactoberfest_git_and_github.jpeg"
+                        title="Hactoberfest'23 Git and Github: Gateway to Open Source"
+                        description="🚀 Hey Tech Trailblazers! 🌟
+                        🎉 Get ready to embark on an epic tech journey with GDSC and Cybersecurity Club IIIT Kottayam as we celebrate HacktoberFest! 🎃✨
+                        Join us for an electrifying session where you'll uncover the magic of Git and GitHub, the superpower duo of version control systems! 🦸‍♂️💻 We're here to demystify the world of VCS and unveil the limitless open-source opportunities HacktoberFest has in store. 🌍
+                        🔥 Meet our own expert speakers, Reetam Dey and Anshumohan Acharya, who'll not only teach you the tech ropes but also answer all your burning questions! 🗣️💡
+                        Ready to step out of your tech comfort zone and dive into the realm of global collaboration? 🌐✨ This event is tailor-made for every one of you out there! 🚀
+                        Don't let this opportunity slip through your fingertips—reserve your spot now via this magical link:
+                        So, mark your calendars, and let's set sail on this incredible tech adventure together! 🌌💫 #HacktoberFest #GDSC #CSYClub"
+                    /><br /><br />
+                    <MediaComponent2
+                        imageSrc="/hactoberfest_intro.png"
+                        title="Introduction to Hactoberfest and Open Source"
+                        description="Hey there! We are elated to announce that the Cyber Security Club of IIIT Kottayam will be collaborating with Hacktoberfest!
+                        Hacktoberfest is DigitalOcean’s annual event that encourages people to contribute in open source projects.
+                        Whether it’s correcting spell errors or creating your first pull request, every contribution matters. The Cyber Security Club is here to guide you through your first ever open source contribution!
+                        In this event, we will introduce you to open source projects and making your first contribution to the club’s own repository.
+                        Stand a chance to win holopin badges and other exciting merchandise!
+                        We’re calling everyone to participate in this one-of-its-kind event and grab the opportunity to learn and practice skills that will help shape your careers."
+                    /><br /><br />
                     <MediaComponent2
                         imageSrc="/kickoff.jpeg"
                         title="Introductory Session on CyberSecurity"
@@ -92,11 +127,6 @@ const Events = () => {
                             For your initiation
                             Into the intriguing realm of cybersecurity."
                     /><br /><br />
-
-                </>
-            ) : (
-
-                <>
                     <MediaComponent2
                         imageSrc="/ecocrypt.jpg"
                         title="EcoCrypt"
