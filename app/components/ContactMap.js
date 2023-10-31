@@ -33,7 +33,7 @@ const Contact = () => {
           <h1>Contact Us</h1>
           <p>Email: csyclub@iiitkottayam.ac.in</p>
           <p>Phone: +91-0482-2202189</p>
-          <p>Address: Indian Institute of Information Technology Kottayam,
+          <p style={{maxWidth: "350px", margin: "0 auto"}}>Address: Indian Institute of Information Technology Kottayam,
 
             Valavoor P O, Pala, Kottayam, Kerala, India - 686635</p>
         </div>
@@ -61,8 +61,7 @@ const Contact = () => {
           margin-right: auto;
         }
 
-        .contact-details {
-          flex: 1;
+        .contact-details { 
           padding: 20px;
           text-align: center;
         }
@@ -71,6 +70,7 @@ const Contact = () => {
           flex: 1;
           height: 450px;
           margin-top: 20px;
+          transform: translate(-15px, -15px);
         }
 
         @media (min-width: 768px) {
